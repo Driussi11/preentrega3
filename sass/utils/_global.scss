@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+@font-face {
+    font-family: Sans;
+    src: url(../assets/ttf/radinela.sans.otf) format(opentype);
+}
+@font-face {
+    font-family: asrhila;
+    src: url(../assets/ttf/arshila.extrabold.otf) format(opentype);
+    font-weight: bold;
+}
+
+#flashion{
+    font-family: sans;
+    font-size:65px;
+    padding: 0px;
+}
+
+#flashion:hover{
+    color: rgb(180, 180, 180);
+}
+#flashion2{
+    font-family: sans;
+    font-size:95px;
+    padding: 0px;
+}
+#backgroundgradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(117,46,185,1) 100%, rgba(0,0,0,1) 100%);
+}
+#logo{
+    display: flex;
+}  
