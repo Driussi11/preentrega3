@@ -1,0 +1,35 @@
+#lsidebox{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+.side-title{
+
+    .side-subtitle{
+        color: white;
+        font-family: ashrila;
+        font-size: 20px;
+    }
+    .side-subtitle:hover{
+        color: rgb(209, 207, 207);
+    }
+
+    .side-items{
+        text-decoration: none;
+        list-style-type: none;
+        font-family: arshila;
+        padding: 3px 0 3px 20px;
+
+        a{
+            color: rgb(155, 155, 155);
+        }
+    
+        a:hover{
+            color: rgb(180, 180, 180);
+        }
+    }
+}
+#rbar-title{
+    font-family: ashrila;
+    color: white;
+
+}

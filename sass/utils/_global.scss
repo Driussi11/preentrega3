@@ -10,6 +10,8 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+$purplef: #9627ff;
+
 @font-face {
     font-family: Sans;
     src: url(../assets/ttf/radinela.sans.otf) format(opentype);
@@ -41,3 +43,6 @@ a:active { text-decoration: none; }
 #logo{
     display: flex;
 }  
+#mianr{
+    background-color: white;
+}

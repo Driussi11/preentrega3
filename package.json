@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.62.1"
+  },
+  "name": "preentrega3-ms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./scss/main.css -w"
+  },
+  "author": "Martin Sallies",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
