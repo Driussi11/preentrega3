@@ -200,6 +200,20 @@
   color: white;
 }
 
+.col-3 .card .card-body {
+  padding: 12px;
+}
+.col-3 .card .card-body .card-title {
+  font-size: 22px;
+  padding: 0px;
+  margin: 0 0 6px 0;
+}
+
+#miaw .col-3 .btn {
+  padding: 4px;
+  height: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
