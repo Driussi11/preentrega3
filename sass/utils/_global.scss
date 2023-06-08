@@ -46,3 +46,10 @@ $purplef: #9627ff;
 #mianr{
     background-color: white;
 }
+.example::-webkit-scrollbar {
+  display: none;
+}
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

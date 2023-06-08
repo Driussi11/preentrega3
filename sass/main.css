@@ -214,6 +214,65 @@
   height: 50px;
 }
 
+@media only screen and (min-width: 1050px) and (max-width: 1442px) {
+  #miaw .col-3 .btn {
+    padding: 4px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 871px) and (max-width: 1049px) {
+  #miaw .col-3 .btn {
+    padding: 1px 4px 4px 4px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 841px) and (max-width: 871px) {
+  #miaw .col-3 .card-title {
+    font-size: 20px;
+  }
+  #miaw .col-3 .btn {
+    padding: 2px 4px 4px 4px;
+    height: 40px;
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 841px) {
+  #miaw .col-3 .card-title {
+    font-size: 17px;
+  }
+  #miaw .col-3 .btn {
+    padding: 2px 4px 4px 4px;
+    height: 40px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 602px) and (max-width: 689px) {
+  #miaw .col-3 .card-title {
+    font-size: 15px;
+  }
+  #miaw .col-3 .btn {
+    padding: 2px 4px 4px 4px;
+    height: 40px;
+    font-size: 8px;
+  }
+  #miaw span {
+    display: none;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 602px) {
+  #miaw .col-3 .card-title {
+    font-size: 12px;
+  }
+  #miaw .col-3 .btn {
+    padding: 2px 4px 4px 4px;
+    height: 40px;
+    font-size: 8px;
+  }
+  #miaw span {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -273,4 +332,13 @@ a:active {
 
 #mianr {
   background-color: white;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }/*# sourceMappingURL=main.css.map */

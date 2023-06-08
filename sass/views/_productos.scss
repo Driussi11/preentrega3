@@ -1,7 +1,6 @@
 #lsidebox{
     background-color: rgba(0, 0, 0, 0.932);
 }
-
 .side-title{
 
     .side-subtitle{
@@ -52,3 +51,104 @@
             }
         }
     }
+
+
+@media only screen and (min-width: 1050px) and (max-width: 1442px){
+    #miaw{
+        .col-3{
+            .btn{
+                padding: 4px;
+                height: 60px;
+                }
+            }
+        }
+}
+@media only screen and (min-width: 871px) and (max-width: 1049px){
+    #miaw{
+        .col-3{
+            .btn{
+                padding: 1px 4px 4px 4px;
+                height: 40px;
+                font-size: 12px;
+                }
+            }
+        }
+}
+@media only screen and (min-width: 841px) and (max-width: 871px){
+    #miaw{
+        .col-3{
+            .card-title{
+                font-size: 20px;
+            }
+            .btn{
+                padding: 2px 4px 4px 4px;
+                height: 40px;
+                font-size: 11px;
+                }
+            }
+        }
+}
+@media only screen and (min-width: 689px) and (max-width: 841px){
+    #miaw{
+        .col-3{
+            .card-title{
+                font-size: 17px;
+            }
+            .btn{
+                padding: 2px 4px 4px 4px;
+                height: 40px;
+                font-size: 8px;
+                }
+            }
+        }
+}
+@media only screen and (min-width: 602px) and (max-width: 689px){
+    #miaw{
+        .col-3{
+            .card-title{
+                font-size: 15px;
+            }
+            .btn{
+                padding: 2px 4px 4px 4px;
+                height: 40px;
+                font-size: 8px;
+                }
+            }
+        span{
+            display: none;
+        }
+        }
+}
+@media only screen and (min-width: 100px) and (max-width: 602px){
+    #miaw{
+        .col-3{
+            .card-title{
+                font-size: 12px;
+            }
+            .btn{
+                padding: 2px 4px 4px 4px;
+                height: 40px;
+                font-size: 8px;
+                }
+            }
+        span{
+            display: none;
+        }
+        }
+}
+// @media only screen and (min-width: 478px) and (max-width: 767px){
+//     .indumentaria-txt{
+//         font-size: 20px;
+//         color: white;
+//         padding: 0px;
+//         margin-top: 15px;
+//     }
+// }
+// @media only screen and (min-width: 100px) and (max-width: 477px){
+//     .indumentaria-txt{
+//         font-size: 15px;
+//         color: white;
+//         padding: 0px;
+//         margin-top: 15px;
+//     }
+// }
