@@ -200,58 +200,90 @@
   color: white;
 }
 
-.col-3 .card .card-body {
+.col-4 .card .card-body {
   padding: 12px;
 }
-.col-3 .card .card-body .card-title {
+.col-4 .card .card-body .card-title {
   font-size: 22px;
   padding: 0px;
   margin: 0 0 6px 0;
 }
 
-#miaw .col-3 .btn {
+#miaw .col-4 .btn {
   padding: 4px;
   height: 50px;
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1442px) {
-  #miaw .col-3 .btn {
+@media only screen and (min-width: 1050px) and (max-width: 1474px) {
+  #miaw .col-4 .btn {
     padding: 4px;
     height: 60px;
   }
 }
-@media only screen and (min-width: 871px) and (max-width: 1049px) {
-  #miaw .col-3 .btn {
+@media only screen and (min-width: 871px) and (max-width: 1081px) {
+  #miaw .col-4 .btn {
     padding: 1px 4px 4px 4px;
     height: 40px;
     font-size: 12px;
   }
 }
-@media only screen and (min-width: 841px) and (max-width: 871px) {
-  #miaw .col-3 .card-title {
+@media only screen and (min-width: 841px) and (max-width: 902px) {
+  #miaw .col-4 .card-title {
     font-size: 20px;
   }
-  #miaw .col-3 .btn {
+  #miaw .col-4 .btn {
     padding: 2px 4px 4px 4px;
     height: 40px;
     font-size: 11px;
   }
 }
-@media only screen and (min-width: 689px) and (max-width: 841px) {
-  #miaw .col-3 .card-title {
+@media only screen and (min-width: 689px) and (max-width: 872px) {
+  #miaw .col-4 .card-title {
     font-size: 17px;
   }
-  #miaw .col-3 .btn {
+  #miaw .col-4 .btn {
     padding: 2px 4px 4px 4px;
     height: 40px;
     font-size: 8px;
   }
 }
-@media only screen and (min-width: 602px) and (max-width: 689px) {
-  #miaw .col-3 .card-title {
-    font-size: 15px;
+@media only screen and (min-width: 763px) and (max-width: 872px) {
+  #lsidebox .side-subtitle {
+    font-size: 16px;
   }
-  #miaw .col-3 .btn {
+}
+@media only screen and (min-width: 637px) and (max-width: 762px) {
+  #lsidebox .side-subtitle {
+    font-size: 12px;
+  }
+  #lsidebox .side-items {
+    font-size: 12px;
+    font-family: ashrila;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 636px) {
+  #lsidebox .side-subtitle {
+    font-size: 12px;
+  }
+  #lsidebox .side-items {
+    font-size: 12px;
+    font-family: ashrila;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 602px) and (max-width: 689px) {
+  #miaw .col-4 .card-body {
+    padding: 5px;
+  }
+  #miaw .col-4 .card-title {
+    display: none;
+  }
+  #miaw .col-4 .btn {
     padding: 2px 4px 4px 4px;
     height: 40px;
     font-size: 8px;
@@ -261,13 +293,20 @@
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 602px) {
-  #miaw .col-3 .card-title {
-    font-size: 12px;
+  .row {
+    height: 80%;
   }
-  #miaw .col-3 .btn {
+  #miaw .col-4 .card-body {
+    padding: 4px;
+    height: 50px;
+  }
+  #miaw .col-4 .card-title {
+    display: none;
+  }
+  #miaw .col-4 .btn {
     padding: 2px 4px 4px 4px;
     height: 40px;
-    font-size: 8px;
+    font-size: 11px;
   }
   #miaw span {
     display: none;
