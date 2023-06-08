@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#title-aboutUs{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(224, 224, 224);
+}
+@media only screen and (min-width: 784px) and (max-width: 1199px){
+    .row{
+        .col{
+            padding-top: 20px;
+        }
+        .col-3{
+            width: 70%;
+        }
+        .col-2{
+
+        }
+    }
+}

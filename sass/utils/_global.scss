@@ -53,3 +53,29 @@ $purplef: #9627ff;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+#offcanvas-footer{
+    display: none;
+}
+@media only screen and (min-width: 100px) and (max-width: 575px){
+    footer{
+        #canvas-footer{
+            display: none;
+        }
+        #offcanvas-footer{
+            display: block;
+        }
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 484px){
+    footer{
+        #footer_link{
+            width: 100%;
+        }
+        .col-3{
+            width: 30%;
+        }
+        .col-2{
+            width: 20%;
+        }
+    }
+}
